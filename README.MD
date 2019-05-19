@@ -4,7 +4,7 @@
 
 ```bash
 # clone repo
-git clone git@github.com:Robophil/movie-listing-next.git
+https://github.com/dashmeet17/react.git
 
 # install dependencies
 yarn
@@ -27,8 +27,4 @@ yarn run dev
 
 ## Built With
 
-* [Pusher](https://pusher.com/) - APIs to enable devs building realtime features
 * [NextJs](https://github.com/zeit/next.js/) - Framework for server-rendered or statically-exported React apps
-
-## Acknowledgments
-https://www.rottentomatoes.com/

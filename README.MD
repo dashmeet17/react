@@ -1,8 +1,4 @@
-# Movie listing app
-
-A realtime app built with NextJs and Pusher for add and viewing reviews for movies
-
-[View tutorial](https://pusher.com/tutorials/realtime-tables-nextjs)
+# UOB React-Redux Assignment
 
 ## Getting Started
 

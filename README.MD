@@ -1,4 +1,4 @@
-# UOB React-Redux Assignment
+# React-Redux Assignment
 
 ## Getting Started
 

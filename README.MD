@@ -1,8 +1,4 @@
-# Movie listing app
-
-A realtime app built with NextJs and Pusher for add and viewing reviews for movies
-
-[View tutorial](https://pusher.com/tutorials/realtime-tables-nextjs)
+# React-Redux Assignment
 
 ## Getting Started
 
@@ -31,8 +27,4 @@ yarn run dev
 
 ## Built With
 
-* [Pusher](https://pusher.com/) - APIs to enable devs building realtime features
 * [NextJs](https://github.com/zeit/next.js/) - Framework for server-rendered or statically-exported React apps
-
-## Acknowledgments
-https://www.rottentomatoes.com/

@@ -12,5 +12,5 @@ var trxnSchema = new Schema({
 //create a model using schema
 var Transaction = mongoose.model('Transaction', trxnSchema);
 
-// make this available to our users in our Node applications
+// make this available 
 module.exports = Transaction;

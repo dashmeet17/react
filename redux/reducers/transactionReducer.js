@@ -1,4 +1,4 @@
-import { FETCH_TRANSACTIONS, TRANSFER_TRANSACTIONS} from '../actions/types';
+import { FETCH_TRANSACTIONS, TRANSFER_TRANSACTION} from '../actions/types';
 
 const initialState = {
   data : []
@@ -13,8 +13,14 @@ export default function(state = initialState, action) {
         ...state,
         data : action.payload
       };
+    case TRANSFER_TRANSACTION :
+      console.log('TRANSFER_TRANSACTION inside reducer called');
+      return {
+        ...state,
+        data : action.payload
+      };
     default :
-     return state;
+      return state;
   }
 
 }

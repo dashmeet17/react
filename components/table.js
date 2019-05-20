@@ -27,7 +27,7 @@ const columns = [
 
 class Table extends React.Component {
   componentWillMount() {
-    this.props.fetchTransactions();
+    //this.props.fetchTransactions();
   }
 
   render () {

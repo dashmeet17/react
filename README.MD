@@ -18,9 +18,17 @@ yarn run dev
 1. node
 2. npm
 
-## Built With
+## Built With Tech stack
 
-* [NextJs]
-* [ReactJs]
-* [Express Framework]
-* [Redux]
+* ReactJs
+* NextJs
+* Express Framework
+* Redux
+
+## More Info
+
+- Next JS used for server side rendering
+- React hooks used in Form component
+- React hooks used with redux
+- Mongoose used for Mongo Database access in an asynchronous environment.
+- Use of Express Framework

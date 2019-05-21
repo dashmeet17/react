@@ -15,12 +15,12 @@ export const fetchTransactions = () => dispatch => {
         });
 }
 
-export const transferTransaction = (trxnData) => dispatch => {
+export const transferTrxnAction = (trxnData) => dispatch => {
   debugger;
    console.log('transferring transaction');
    //TODO - Call API to save the trxn in db and return the payload accordingly
-   dispatch({
-     type : TRANSFER_TRANSACTION,
-     payload : {status : success}  //dummy response
-   })
+   // dispatch({
+   //   type : TRANSFER_TRANSACTION,
+   //   payload : {status : success}  //dummy response
+   // })
 }

@@ -1,17 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import '../css/form.css';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import { transferTransaction } from '../redux/actions/transactionActions.js'
+import { transferTrxnAction } from '../redux/actions/transactionActions.js'
 import { useActions } from 'react-redux';
 import { useDispatch } from 'react-redux';
 
 const Form = (props) => {
-  //react hooks used
   const [amount, setAmount] = useState();
   const [paymentMode, setPaymentMode] = useState('');
   const dispatch = useDispatch();
-  const transferTransaction = (trxn) => dispatch(transferTransaction(trxn));
+  const transferTransaction = (trxn) => dispatch(transferTrxnAction(trxn));
 
   const onChangePaymentMode = (e) => {
     setPaymentMode(e.target.value);
@@ -23,7 +22,6 @@ const Form = (props) => {
   }
 
   const onSubmit = (event) => {
-    debugger;
     event.preventDefault();
 
     const trxn = {
@@ -31,8 +29,14 @@ const Form = (props) => {
       amount: amount
     };
 
+    /** Call transfer transaction action */
     transferTransaction(trxn);
+    alert('Trxn transferred');
   };
+
+  // useEffect(() => {
+  //   console.log("Inside use effect");
+  // };
 
     return (
       <div className="container jumbotron  paymentForm">
@@ -91,13 +95,9 @@ const Form = (props) => {
     );
 };
 
-Form.propTypes = {
-   transferTransaction: PropTypes.func.isRequired
-};
-
 const mapStateToProps = (state) => ({
   transactions : state.transactions.data
 });
 
 
-export default connect(mapStateToProps, { transferTransaction })(Form);
+export default Form;

@@ -3,20 +3,13 @@
 ## Getting Started
 
 ```bash
-# clone repo
-git clone git@github.com:Robophil/movie-listing-next.git
+# clone repo - Use Git or checkout with SVN using the web URL
+https://github.com/dashmeet17/react.git
 
 # install dependencies
 yarn
 
-# copy app keys from pusher dashboard and place in .env file
-# see sample in .example.env
-source .env
-
-# start server
-yarn run server
-
-# start app
+# start app and server by running below command
 yarn run dev
 ```
 
@@ -27,4 +20,7 @@ yarn run dev
 
 ## Built With
 
-* [NextJs](https://github.com/zeit/next.js/) - Framework for server-rendered or statically-exported React apps
+* [NextJs]
+* [ReactJs]
+* [Express Framework]
+* [Redux]

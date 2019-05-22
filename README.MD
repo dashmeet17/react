@@ -7,10 +7,8 @@
 https://github.com/dashmeet17/react.git
 
 # install dependencies
+npm install
 yarn
-
-# install concurrently module
-npm install -g concurrently
 
 # start app and server by running below command
 yarn run dev

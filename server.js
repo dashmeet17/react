@@ -14,7 +14,10 @@ var Transaction = require('./models/transaction');
 
 //const dbURL = 'mongodb+srv://user:user@cluster0-dbicd.mongodb.net/test?retryWrites=true';
 
-const dbURL = 'mongodb://webdiscoverers:Dashmeet17!@ds129770.mlab.com:29770/webdiscoverers';
+//const dbURL = 'mongodb://webdiscoverers:Dashmeet17!@ds129770.mlab.com:29770/webdiscoverers';
+
+const dbURL = 'mongodb+srv://admin:admin@cluster0-nhnjo.mongodb.net/test?retryWrites=true';
+
 
 mongoose.connect(dbURL, function(err){
   if(err){
